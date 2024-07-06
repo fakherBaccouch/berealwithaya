@@ -10,7 +10,7 @@ function Hero() {
 
 
   const divStyle = {
-    backgroundImage: `linear-gradient(180deg, #111111 50%, rgba(17, 17, 17, 0.5) 95%), url(${process.env.PUBLIC_URL}/skybg.jpg)`,
+    backgroundImage: `linear-gradient(180deg, #111111 50%, rgba(17, 17, 17, 0.9) 95%), url(${process.env.PUBLIC_URL}/skybg.jpg)`,
     backgroundSize: 'cover',
     backgroundPosition: 'top',                                                 
     /* Add other background properties as needed */
