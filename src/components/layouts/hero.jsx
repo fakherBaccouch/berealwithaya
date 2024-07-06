@@ -29,7 +29,7 @@ function Hero() {
     <div  style={divStyle}  className="relative custom-clip-path  bg-primaryBlack to-white bg-gradient-to-r   text-left items-left flex flex-col h-auto h-auto bg-cover bg-center overflow-hidden ">
 
       <p data-aos="fade-in" className='  font-bold leading-16 text-4xl text-white  z-10	 text-left pt-8 px-4 mt-6 '>Hi, this is <span className=' text-secondaryGreen animate-fadein underline'>Aya G</span> , your spiritual coach and relationship guide.</p>
-      <p  data-aos="fade-in" data-aos-delay="200" className='font-medium   z-10	font_nunito text-lg	font-sans text-white text-left p-4'>I help individuals and managers create authentic lives, build better connections, and grow in consciousness.</p>
+      <p  data-aos="fade-in" data-aos-delay="200" className='font-medium   z-10	font_nunito text-lg	font_lora text-white text-left p-4'>I help individuals and managers create authentic lives, build better connections, and grow in consciousness.</p>
       <button data-aos="fade-in"  data-aos-delay="300" className=' boxshadowbtn_white leading-4 z-10		 w-fit px-6 text-lg   bg-primaryPurple   font-bold text-primaryPurple mx-4 mb-4 py-4 rounded-full text-white '>Who is the Real Aya ?</button>
 
 <div className='relative'>

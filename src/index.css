@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Kaushan+Script&family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patua+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik+Mono+One&family=Yellowtail&display=swap');.App{
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.App{
   font-family: "Playwrite GB S", cursive;
   font-weight: 400;
   font-style: normal;
@@ -9,6 +10,10 @@
   line-height: 1.5
  
   
+}
+.font_lora{
+  font-family: "Lora", serif;
+
 }
 @keyframes marquee {
   0% {

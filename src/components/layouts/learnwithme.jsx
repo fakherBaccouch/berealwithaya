@@ -28,7 +28,7 @@ function Learnwithme() {
   <div className='text-white flex flex-col text-center items-center justify-around mb-6'>
     <img alt="heart" data-aos="zoom-in" className="w-24" src="./heart.png" />
     <div  data-aos="zoom-in" className='text-xl mb-2'>Authenticity and Self-Love</div>
-    <div data-aos="zoom-in" className='font_nunito px-4'>Discover how to be true to yourself, fostering a path to self-love and self-awareness.</div>
+    <div data-aos="zoom-in" className='font_lora px-4'>Discover how to be true to yourself, fostering a path to self-love and self-awareness.</div>
   </div>
 
 
@@ -36,7 +36,7 @@ function Learnwithme() {
   <img alt="healing" data-aos="zoom-in" className="w-24" src="./healing.png" />
 
     <div data-aos="zoom-in" className='text-xl mb-2'>Healing Relationships</div>
-    <div data-aos="zoom-in" className='font_nunito px-4'>Heal from past wounds related to relationships (love, family, friends, and toxic managers) and build a healthy, loving relationship circle.</div>
+    <div data-aos="zoom-in" className='font_lora px-4'>Heal from past wounds related to relationships (love, family, friends, and toxic managers) and build a healthy, loving relationship circle.</div>
   </div>
 
 
@@ -45,7 +45,7 @@ function Learnwithme() {
   <img alt="mind" data-aos="zoom-in" className="w-24" src="./heart.png" />
 
     <div data-aos="zoom-in"  className='text-xl mb-2 '>Conscious Growth</div>
-    <div  data-aos="zoom-in" className='font_nunito px-4'>Expand your consciousness and become more aware of your reality, enabling you to take control over your destiny.</div>
+    <div  data-aos="zoom-in" className='font_lora px-4'>Expand your consciousness and become more aware of your reality, enabling you to take control over your destiny.</div>
   </div>
   </div>
   );
