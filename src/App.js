@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Hero from './components/layouts/hero';
+import Navbar from './components/layouts/navbar';
+import Learnwithme from './components/layouts/learnwithme';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You need to import the CSS for AOS
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Whether animation should only happen once
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="App hero-section h-screen  ">
+      <Navbar/>
+   <Hero/>
+   <Learnwithme/>
+  </div>
   );
 }
 

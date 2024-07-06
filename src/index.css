@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Kaushan+Script&family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patua+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik+Mono+One&family=Yellowtail&display=swap');.App{
+  font-family: "Playwrite GB S", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.5
+ 
+  
+}
+@keyframes marquee {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+.delay-3000 {
+  animation-delay: 3s; /* Delay the start of this animation by 3 seconds */
+}
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fadein{
+  animation: fade 1.5s linear infinite;
+
+}
+
+
+
+
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotate-infinite {
+  animation: rotate 100s linear infinite; /* Adjust animation duration (5s) and timing function as needed */
+}
+
+.font_nunito{
+  font-family: "Nunito", sans-serif;
+
+}
+.font_Yellowtail{
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@keyframes testes {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform:translateX(0%);
+  }
+}
+
+
+.animate-testes{
+  animation: testes 1.2s ease-in-out ;
+
+}
+
+
+
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animated-bounce {
+  animation: bounce 1.5s ease-in-out infinite;
+}
+
+.font_Kaushan{
+  font-family: "Kaushan Script", cursive;
+
 }
