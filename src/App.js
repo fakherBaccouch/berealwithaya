@@ -5,6 +5,7 @@ import Learnwithme from './components/layouts/learnwithme';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You need to import the CSS for AOS
 import { useEffect } from 'react';
+import Buymybook from './components/layouts/buymybook';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
    <Hero/>
    <Learnwithme/>
+   <Buymybook/>
   </div>
   );
 }

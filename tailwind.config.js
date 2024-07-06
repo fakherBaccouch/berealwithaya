@@ -11,7 +11,7 @@ module.exports = {
         primaryPurple: '#70198A',
   secondaryPurple: '#BB8FA9',
   secondaryGreen: '#C1EA9F',
- 
+ secondaryWhite:'#f7f7f7'
         
       },
       transitionProperty: {
