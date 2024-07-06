@@ -33,7 +33,7 @@ function Hero() {
       <button data-aos="fade-in"  data-aos-delay="300" className=' boxshadowbtn_white leading-4 z-10		 w-fit px-6 text-lg   bg-primaryPurple   font-bold text-primaryPurple mx-4 mb-4 py-4 rounded-full text-white '>Who is the Real Aya ?</button>
 
 <div className='relative'>
-<img  data-aos-delay="400" className='w-128 z-10 	opacity-80 mt-[-4rem]' src="./hero2.png" />
+<img alt="hero2"  data-aos-delay="400" className='w-128 z-10 	opacity-80 mt-[-4rem]' src="./hero2.png" />
 </div>
 <IoIosArrowDown className='text-4xl animated-bounce   text-primaryPurple  self-center mt-[-7.5rem] z-20	'/>
 

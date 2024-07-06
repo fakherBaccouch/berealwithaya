@@ -1,5 +1,4 @@
 import React from 'react';
-import { IoIosArrowDown } from "react-icons/io";
 
 function Buymybook() {
  
@@ -15,20 +14,12 @@ function Buymybook() {
     
       };
     
-      const titleStyle= {
-        backgroundImage: 'linear-gradient(to right, #70198A, #70198A)',
-        backgroundClip: 'text',
-        color:'transparent'
-    
-      }
-
-
-
+  
   
   return (
     <div style={divStyle}   className=' flex justify-center  items-center flex-col h-screen bg-secondaryWhite mt-[-16rem] px-6 pt-48 ' >
     
-<img data-aos="flip-left" className='w-[60%] z-20 mb-10 ' src='.\book1_1.png'/>
+<img alt='book1' data-aos="flip-left" className='w-[60%] z-20 mb-10 ' src='.\book1_1.png'/>
 <div data-aos="fade-up" className='font-bold text-4xl text-left '> Everything Is Figureoutable</div>
  <div data-aos="fade-up" className='text-xl my-2 text-left my-6 font-medium text-primaryBlack font_nunito	'>It’s more than just a fun phrase to say. It’s a philosophy of relentless optimism. A mindset. A mantra. A conviction. Most important, it’s about to make you unstoppable. Everything is Figureoutable is NOW AVAILABLE in 32 languages.</div>
 
