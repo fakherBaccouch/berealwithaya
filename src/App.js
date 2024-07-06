@@ -19,7 +19,6 @@ function App() {
    <Hero/>
    <Learnwithme/>
    <Buymybook/>
-
   </div>
   );
 }

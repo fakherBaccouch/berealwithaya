@@ -41,7 +41,7 @@ function Learnwithme() {
 
 
 
-  <div className='text-white flex flex-col text-center items-center justify-around mb-24'>
+  <div className='text-white flex flex-col text-center items-center justify-around mb-36'>
   <img alt="mind" data-aos="zoom-in" className="w-24" src="./heart.png" />
 
     <div data-aos="zoom-in"  className='text-xl mb-2 '>Conscious Growth</div>
